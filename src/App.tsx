@@ -110,7 +110,7 @@ export default function App() {
             <div className="w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center overflow-hidden border-2 border-bw-orange bg-black shadow-[0_0_10px_rgba(255,106,0,0.3)] relative">
               <span className="font-heading font-bold text-xl text-bw-orange absolute">B</span>
               <img 
-                src="/Logo.png" 
+                src="https://i.ibb.co/pj9Pznzz/Logo.png" 
                 alt="Biharwale Sirji Logo" 
                 className="w-full h-full object-cover relative z-10 bg-black" 
                 onError={(e) => {
@@ -214,7 +214,7 @@ export default function App() {
               <div className="absolute inset-0 bg-gradient-to-t from-bw-orange via-transparent to-transparent opacity-10" />
               <div className="absolute inset-0 bg-gradient-to-tr from-bw-bg via-transparent to-transparent opacity-80" />
               <img 
-                src="/teacher.png" 
+                src="https://i.ibb.co/LX6t6VDc/file-000000001c907206937d7413c8c21e9f.png" 
                 alt="Biharwale Sirji Teaching" 
                 className="absolute inset-0 w-full h-full object-cover mix-blend-luminosity hover:mix-blend-normal transition-all duration-700 opacity-80 z-0"
                 onError={(e) => {
@@ -327,7 +327,7 @@ export default function App() {
             <div className="relative z-10 w-full aspect-[4/5] rounded-[12px] bg-bw-surface border border-bw-surface-light overflow-hidden shadow-2xl p-2">
               <div className="w-full h-full rounded-[8px] overflow-hidden bg-bw-bg relative group">
                 <img 
-                  src="/teacher.png" 
+                  src="https://i.ibb.co/LX6t6VDc/file-000000001c907206937d7413c8c21e9f.png" 
                   alt="Biharwale Sirji Portrait" 
                   className="w-full h-full object-cover mix-blend-luminosity group-hover:mix-blend-normal transition-all duration-700 object-top"
                   onError={(e) => {
@@ -667,7 +667,7 @@ export default function App() {
               <div className="w-12 h-12 rounded-full flex items-center justify-center overflow-hidden border-2 border-bw-orange bg-black shadow-[0_0_10px_rgba(255,106,0,0.3)] relative">
                 <span className="font-heading font-bold text-xl text-bw-orange absolute">B</span>
                 <img 
-                  src="/Logo.png" 
+                  src="https://i.ibb.co/pj9Pznzz/Logo.png" 
                   alt="Biharwale Sirji Logo" 
                   className="w-full h-full object-cover relative z-10 bg-black"
                   onError={(e) => {
