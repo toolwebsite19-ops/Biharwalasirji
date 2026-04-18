@@ -110,7 +110,7 @@ export default function App() {
             <div className="w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center overflow-hidden border-2 border-bw-orange bg-black shadow-[0_0_10px_rgba(255,106,0,0.3)] relative">
               <span className="font-heading font-bold text-xl text-bw-orange absolute">B</span>
               <img 
-                src="/logo.png" 
+                src="/Logo.png" 
                 alt="Biharwale Sirji Logo" 
                 className="w-full h-full object-cover relative z-10 bg-black" 
                 onError={(e) => {
@@ -667,7 +667,7 @@ export default function App() {
               <div className="w-12 h-12 rounded-full flex items-center justify-center overflow-hidden border-2 border-bw-orange bg-black shadow-[0_0_10px_rgba(255,106,0,0.3)] relative">
                 <span className="font-heading font-bold text-xl text-bw-orange absolute">B</span>
                 <img 
-                  src="/logo.png" 
+                  src="/Logo.png" 
                   alt="Biharwale Sirji Logo" 
                   className="w-full h-full object-cover relative z-10 bg-black"
                   onError={(e) => {
