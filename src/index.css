@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-bw-orange: #FF6A00;
+  --color-bw-orange-hover: #E65C00;
+  --color-bw-bg: #0D0D0D;
+  --color-bw-surface: #1A1A1A;
+  --color-bw-surface-light: #252525;
+  --color-bw-accent: #F5F5DC;
+  --color-bw-text-muted: #B3B3B3;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-heading: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bw-bg);
+  color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: var(--font-heading);
+}
+
+/* Custom scrollbar for premium look */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bw-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-bw-surface-light);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-bw-orange);
+}
